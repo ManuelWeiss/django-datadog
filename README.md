@@ -4,6 +4,12 @@ A simple Django middleware for submitting timings and exceptions to Datadog.
 
 ## Installation
 
+Install `dogapi`:
+
+```bash
+pip install dogapi
+```
+
 Download the code into your project and install it.
 
 ```bash
