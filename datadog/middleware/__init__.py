@@ -1,1 +1,1 @@
-from request_handler import DatadogMiddleware
+from .request_handler import DatadogMiddleware
