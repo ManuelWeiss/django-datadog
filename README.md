@@ -21,7 +21,7 @@ python setup.py install
 Add `datadog` to your list of installed apps.
 
 ```python
-INSTALLED_APPS += ('datadog')
+INSTALLED_APPS += ('datadog',)
 ```
 
 Add the following configuration to your projects' `settings.py` file:
@@ -37,7 +37,7 @@ The API and app keys can be found at https://app.datadoghq.com/account/settings#
 Add the Datadog request handler to your middleware in `settings.py`.
 
 ```python
-MIDDLEWARE_CLASSES += ('datadog.middleware.DatadogMiddleware')
+MIDDLEWARE_CLASSES += ('datadog.middleware.DatadogMiddleware',)
 ```
 
 ## Usage
